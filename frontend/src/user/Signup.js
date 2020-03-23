@@ -1,5 +1,10 @@
-import React from 'react';
+import React from "react";
+import Layout from "../core/Layout";
 
-const Signup = () => <div>Signup</div>;
+const Signup = () => (
+  <Layout title="Signup" description="signup Full stack app">
+    ...
+  </Layout>
+);
 
 export default Signup;
