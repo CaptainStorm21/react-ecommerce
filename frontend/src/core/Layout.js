@@ -14,8 +14,8 @@ const Layout = ({
         <h2 className="display-2">{title}</h2>
         <p className="lead">{description}</p>
       </div>
-      <div className={className}>{children}</div>
-    </div>
+    </div>      
+    <div className={className}>{children}</div>
   </div>
 );
 export default Layout;
